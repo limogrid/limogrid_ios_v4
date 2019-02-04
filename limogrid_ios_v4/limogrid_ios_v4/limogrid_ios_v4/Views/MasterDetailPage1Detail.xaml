@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="limo_droid_v4.Views.MasterDetailPage1Detail"
+             Title="LimoGrid" >
+    <AbsoluteLayout>
+        
+        <Grid AbsoluteLayout.LayoutBounds=".5,1,.8,.2" AbsoluteLayout.LayoutFlags="All" BackgroundColor="#2495c2" Margin="-10,0,0,20"  x:Name="pnlJob">
+            <Label Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1" Text="View Jobs" TextColor="White" Font="24" Margin="0,-20,0,0"/>
+            <Label Grid.Column="1" Grid.Row="2"  Margin="-60,-10,0,0" Text="Jobs Assigned" TextColor="White" Font="15" x:Name="lblJobAssigned"/>
+            <Label Grid.Column="2" Grid.Row="2" Margin="-20,-10,0,0" Text="Jobs Offered" TextColor="White" Font="15" x:Name="lblJobOffer"/>
+        </Grid>
+    </AbsoluteLayout>
+</ContentPage>

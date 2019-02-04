@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="limo_droid_v4.Views.LoginPage">
+    <ContentPage.Content BackgroundColor="White">
+        <StackLayout Margin="20,30,20,0">
+            <Label Text="Login" HorizontalTextAlignment="Center" TextColor="#14536c" Font="Bold,30"/>
+            <Entry x:Name="txt_company" Placeholder="Company Name" FontSize="16"  Margin="0,70,0,0"/>
+            <Entry x:Name="txt_user" Placeholder="Username" FontSize="16"  />
+            <Entry x:Name="txt_pass" Placeholder="Password" FontSize="16" IsPassword="True"/>
+            <Button Text="Forgot Password" Margin="30,15,30,0" BackgroundColor="White" BorderColor="White" TextColor="#66a3ff" Font="Bold,13"/>
+            <Button BackgroundColor="#2495c2" Margin="0,15,0,0" TextColor="#fff" BorderColor="#2495c2" BorderRadius="20" FontSize="18" Text="Login" Clicked="SignInProcedure" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -157,4 +157,115 @@
       <Name>limogrid_ios_v4</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-hdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-hdpi\launcher_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-mdpi\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-mdpi\launcher_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-xhdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-xhdpi\launcher_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-xxhdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_circ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_ea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_md.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_mp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_pf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_phone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_re.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_rt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_sa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_sf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_so.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_trip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_vm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\icon_yt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable\user_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable-hdpi\icon_car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable-xhdpi\icon_car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable-xxhdpi\icon_car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\drawable-xxxhdpi\icon_car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-anydpi-v26\icon.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\mipmap-anydpi-v26\icon_round.xml" />
+  </ItemGroup>
 </Project>

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="limo_droid_v4.Views.MasterDetailPage1Master"
+             Title="Master">
+    <StackLayout>
+        <ListView x:Name="MenuItemsListView"
+              SeparatorVisibility="None"
+              HasUnevenRows="true"
+              ItemsSource="{Binding MenuItems}">
+            <ListView.Header>
+                <Grid BackgroundColor="#2084ac">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="10"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="10"/>
+                    </Grid.RowDefinitions>
+                    <!--<Label
+              Grid.Column="1"
+              Grid.Row="2"
+              Text="AppName"
+              Style="{DynamicResource SubtitleStyle}"/>-->
+                        <Image  Grid.Column="1"
+              Grid.Row="1"  WidthRequest="70"  Source="user_img.png" />
+                    
+                    <Label Grid.Column="1"
+              Grid.Row="2" x:Name="lblNomeUser" Text="Leandro Dante" HorizontalTextAlignment="Center" TextColor="#fff"  Font="Bold,20"/>
+                    <Image  Grid.Column="1"
+              Grid.Row="3" WidthRequest="15" Source="icon_star.png" />
+                    <Label Grid.Column="1"
+              Grid.Row="4" Text="5.00" TextColor="#fff" Font="18" HorizontalTextAlignment="Center"/>
+                </Grid>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate >
+                    <ViewCell >
+                        <StackLayout  BackgroundColor="#2084ac"  Padding="15,10" HorizontalOptions="FillAndExpand">
+
+                            <Grid HeightRequest="0.6" Margin="27,0,0,0" BackgroundColor="White" />
+
+                            <StackLayout Grid.Row="1" Orientation="Horizontal" Spacing="0">
+                                <Image Source="{Binding Icon}" WidthRequest="20" HeightRequest="20"></Image>
+                                <Label 
+                    VerticalTextAlignment="Center" 
+                    Text="{Binding Title}"  Margin="5,5,0,0"
+                    FontSize="16" TextColor="#fff"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
